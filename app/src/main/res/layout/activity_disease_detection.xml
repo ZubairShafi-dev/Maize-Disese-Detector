@@ -4,6 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ActivityDiseaseDetection">
+    <FrameLayout
+        android:id="@+id/imgContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        >
+        <ImageView
+            android:id="@+id/displayedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+/>
+    </FrameLayout>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,6 +42,7 @@
 
                     >
                     <ImageView
+                        android:id="@+id/flipCamera"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/camera"
@@ -53,6 +66,7 @@
                     >
 
                     <ImageView
+                        android:id="@+id/clickImg"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/cirle"
@@ -76,6 +90,7 @@
 
                     >
                     <ImageView
+                        android:id="@+id/galleryImg"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gallery"
