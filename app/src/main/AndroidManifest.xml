@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MaizeDiseseDetector"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityDiseaseDetection"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityHome"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
